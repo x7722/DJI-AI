@@ -39,6 +39,7 @@ public class DjlTest {
 
     @Test
     public void testModel() throws MalformedModelException, IOException, TranslateException {
+        //加载图片信息
         Image image = ImageFactory.getInstance().fromFile(Paths.get("build/img/2.jpg"));
 
         //加载模型
